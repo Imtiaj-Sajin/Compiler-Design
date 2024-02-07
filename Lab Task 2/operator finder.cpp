@@ -5,7 +5,7 @@ Ans:
 operator1:  + 
 operator2:  = 
 */
-
+---------
 #include<bits/stdc++.h>
 using namespace std;
     char x[]={};
