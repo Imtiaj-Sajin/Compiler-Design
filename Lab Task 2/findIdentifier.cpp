@@ -1,6 +1,7 @@
 /*identifier*/
 //---------
 #include<bits/stdc++.h>
+#include<cmath>
 using namespace std;
     char x[]={};
     int Xlength=0;
@@ -42,6 +43,10 @@ int main() {
 
    cout << "String: ";
    cin >> s;
-   cout<<findIdentifier(s);
+   if(findIdentifier(s)){
+       cout<<"valid";
+   }
+   else
+    cout<<"not valid";
 
 }
